@@ -22,7 +22,6 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-<pre><code>
 
 ### Also in non-interactive mode
 <pre><code>
