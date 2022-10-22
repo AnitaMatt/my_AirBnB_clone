@@ -10,7 +10,7 @@
 Basically CRUD functions
 
 ### In interactive Mode
-`
+```
 $  ./console.py
 (hbnb) help
 
@@ -22,10 +22,10 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-`
+```
 
 ### Also in non-interactive mode
-`
+```
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -45,4 +45,4 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
-`
+```
