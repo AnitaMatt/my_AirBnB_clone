@@ -9,9 +9,8 @@
 **********
 Basically CRUD functions
 
-## In interactive Mode
+### In interactive Mode
 <pre><code>
-```
 $  ./console.py
 (hbnb) help
 
@@ -23,5 +22,27 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-```
+<pre><code>
+
+### Also in non-interactive mode
+<pre><code>
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
 <pre><code>
